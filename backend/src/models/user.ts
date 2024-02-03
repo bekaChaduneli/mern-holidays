@@ -1,6 +1,3 @@
-/// <reference types="mongoose" />
-/// <reference types="bcryptjs" />
-
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 
