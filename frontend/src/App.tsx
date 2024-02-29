@@ -91,8 +91,4 @@ const Home = () => {
   return <div>Home Page</div>;
 };
 
-const SearchPage = () => {
-  return <div>Search Page</div>;
-};
-
 export default App;
