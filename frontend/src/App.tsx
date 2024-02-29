@@ -11,6 +11,7 @@ import AddHotel from "./pages/AddHotel";
 import { useAppContext } from "./context/AppContext";
 import MyHotels from "./pages/MyHotels";
 import EditHotel from "./pages/EditHotel";
+import Search from "./pages/Search";
 
 const App = () => {
   const { isLoggedIn } = useAppContext();
@@ -27,7 +28,6 @@ const App = () => {
         >
           {/* Nested Routes */}
           <Route index element={<Home />} />
-          <Route path="search" element={<SearchPage />} />
         </Route>
         <Route
           path="/register"
@@ -47,6 +47,14 @@ const App = () => {
         />
         {isLoggedIn && (
           <>
+            <Route
+              path="/search"
+              element={
+                <Layout>
+                  <Search />
+                </Layout>
+              }
+            />
             <Route
               path="/add-hotel"
               element={
