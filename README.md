@@ -16,7 +16,6 @@ The main goal of the project was to create a Full stack project as similar to a 
 
 ### Links
 
-- Live Site URL: [Live site](https://mern-holidays.onrender.com/)
 - Solution URL: [Solution URL](https://github.com/bekaChaduneli/mern-holidays)
 
 ### Built with
